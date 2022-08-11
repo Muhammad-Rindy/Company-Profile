@@ -1,0 +1,13 @@
+.heroImage {
+  max-height: 1200px;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.section {
+  height: 100vh;
+  max-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
