@@ -10,4 +10,51 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 50px;
+  background-color: aqua;
+}
+
+.winner {
+  object-fit: cover;
+}
+
+.gambarAbout {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+}
+
+.About {
+  margin-left: 93px;
+}
+
+.imagesGalery {
+  object-fit: cover;
+  display: flex;
+}
+
+.galeriImage {
+  margin: 70px 50px;
+}
+
+.topArtikel {
+  margin: 100px;
+  font-size: 23px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.tulisanArtikel {
+  font-size: 17px;
+  margin: 38px;
+}
+
+.gambarArtikel {
+  margin: 38px;
+}
+
+.boxArtikel {
+  display: flex;
+  box-sizing: border-box;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Layout from "../layout";
+import Card from "react-bootstrap/Card";
 
 export default function Home() {
   return (
@@ -17,9 +18,10 @@ export default function Home() {
           </h1>
         </div>
       </div>
-      <section className="section bg-gray-dark">
+      <section className="section container bg-abu">
         <Container>
           <h1 className="text-center">Tentang Kami</h1>
+          <hr />
           <p className="text-center">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
             fuga magni velit optio! Laborum amet libero quidem assumenda earum
@@ -39,8 +41,82 @@ export default function Home() {
             atque porro mollitia totam quibusdam deleniti! Quisquam illo soluta
             unde, amet quos consequatur nesciunt alias aliquid.
           </p>
+          <br />
+          <br />
+          <br />
+          <span className="About">
+            <img src="assets/images/winner.jpg" className="gambarAbout" />
+          </span>
+          <span className="About">
+            <img src="assets/images/winner.jpg" className="gambarAbout" />
+          </span>
+          <span className="About">
+            <img src="assets/images/winner.jpg" className="gambarAbout" />
+          </span>
+          <span className="About">
+            <img src="assets/images/winner.jpg" className="gambarAbout" />
+          </span>
         </Container>
       </section>
+      <section className="section bg-abu">
+        <h1 className="text-center">Galeri</h1>
+        <div className="imagesGalery">
+          <Card style={{ width: "45rem" }} className="galeriImage">
+            <Card.Img variant="top" src="assets/images/winner.jpg" />
+            <Card.Body>
+              <Card.Title className="text-center">Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-secondary" type="button">
+                  Kunjungi
+                </button>
+              </div>
+            </Card.Body>
+          </Card>
+
+          <Card style={{ width: "45rem" }} className="galeriImage">
+            <Card.Img variant="top" src="assets/images/winner.jpg" />
+            <Card.Body>
+              <Card.Title className="text-center">Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-secondary" type="button">
+                  Kunjungi
+                </button>
+              </div>
+            </Card.Body>
+          </Card>
+        </div>
+      </section>
+      <p className="topArtikel">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+        molestiae quia, ut sequi nihil libero enim magni optio voluptate,
+        facilis quam. Veritatis eius quae debitis id quasi repellat eveniet
+        expedita!
+      </p>
+
+      <div className="boxArtikel">
+        <img src="assets/images/winner.jpg" className="gambarArtikel" />
+        <p className="tulisanArtikel">
+          <b>Judul artikel ..</b>
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+          earum necessitatibus eaque? Delectus dignissimos quae et ex
+          praesentium nam fugit, asperiores consectetur molestias eius sint,
+          aliquam eveniet mollitia enim velit. Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Excepturi eum quos nam! Eligendi
+          perferendis accusamus tempore laboriosam. Nisi neque rem nobis, nemo
+          dicta, molestiae enim expedita nostrum officiis ab ut!
+        </p>
+      </div>
+      <div>aksa</div>
     </Layout>
   );
 }

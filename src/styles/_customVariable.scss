@@ -47,6 +47,8 @@ $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
 $coklat:  #FEE0C0 !default;
+$abu:  #F0F5F9!default;
+
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -65,7 +67,7 @@ $colors: (
   "white":      $white,
   "gray":       $gray-600,
   "gray-dark":  $gray-800,
-  "coklat":     $coklat,
+  "abu":     $abu,
 ) !default;
 // scss-docs-end colors-map
 
@@ -322,6 +324,7 @@ $theme-colors: (
   "light":      $light,
   "dark":       $dark,
   "coklat":     $coklat,
+  "abu":        $abu,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -544,7 +547,7 @@ $aspect-ratios: (
 
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      system-ui, -apple-system,  Arial, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans",  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif:      system-ui, -apple-system,  "Simplon Mono", "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans",  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 // stylelint-enable value-keyword-case
 $font-family-base:            var(--#{$prefix}font-sans-serif) !default;

@@ -14,8 +14,11 @@ export default function TopBar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home">Beranda</Nav.Link>
-              <Nav.Link href="#link">Tentang</Nav.Link>
-              <Nav.Link href="#link">Galery</Nav.Link>
+              <Nav.Link href="#link">Tentang Kami</Nav.Link>
+              <NavDropdown title="Galeri" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.2">Foto</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Video</NavDropdown.Item>
+              </NavDropdown>
               <Nav.Link href="#link">Blog</Nav.Link>
               <NavDropdown title="Layanan" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
