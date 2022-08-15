@@ -14,22 +14,17 @@ export default function TopBar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">About Me</Nav.Link>
+              <Nav.Link href="#about">About Me</Nav.Link>
               <NavDropdown title="Galery" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.2">Pictures</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Video</NavDropdown.Item>
+                <NavDropdown.Item href="/pictures">Pictures</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Videos</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#link">Blog</Nav.Link>
-              <NavDropdown title="Services" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
+              <Nav.Link href="#artikel">Blog</Nav.Link>
+              <NavDropdown title="Support" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">Services</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">FAQ</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#link">Contact</Nav.Link>
+              <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

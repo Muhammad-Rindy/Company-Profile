@@ -2,11 +2,12 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Layout from "../layout";
 import Card from "react-bootstrap/Card";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <Layout>
-      <div className="position-relative vh-100">
+      <div className="position-relative vh-100" id="home">
         <img
           src="assets/images/company.jpg"
           alt="gambar"
@@ -18,7 +19,8 @@ export default function Home() {
           </h1>
         </div>
       </div>
-      <section className="section container bg-abu">
+
+      <section className="section container bg-abu" id="about">
         <Container>
           <h1 className="text-center">About Me</h1>
           <hr />
@@ -87,20 +89,19 @@ export default function Home() {
               </Card.Text>
               <div class="d-grid gap-2 col-6 mx-auto">
                 <button class="btn btn-secondary" type="button">
-                  Video
+                  Videos
                 </button>
               </div>
             </Card.Body>
           </Card>
         </div>
       </section>
-      <h4 className="topArtikel">
+      <h4 className="topArtikel" id="artikel">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
         molestiae quia, ut sequi nihil libero enim magni optio voluptate,
         facilis quam. Veritatis eius quae debitis id quasi repellat eveniet
         expedita!
       </h4>
-
       <div className="boxArtikel">
         <img src="assets/images/winner.jpg" className="gambarArtikel" />
 
@@ -146,6 +147,7 @@ export default function Home() {
           dicta, molestiae enim expedita nostrum officiis ab ut!
         </p>
       </div>
+      <Footer />
     </Layout>
   );
 }
