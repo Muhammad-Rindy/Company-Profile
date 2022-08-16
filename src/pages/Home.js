@@ -72,9 +72,9 @@ export default function Home() {
                 the bulk of the card's content.
               </Card.Text>
               <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="btn btn-secondary" type="button">
+                <a class="btn btn-secondary" href="/pictures" role="button">
                   Pictures
-                </button>
+                </a>
               </div>
             </Card.Body>
           </Card>
@@ -88,9 +88,9 @@ export default function Home() {
                 the bulk of the card's content.
               </Card.Text>
               <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="btn btn-secondary" type="button">
+                <a class="btn btn-secondary" href="/videos" role="button">
                   Videos
-                </button>
+                </a>
               </div>
             </Card.Body>
           </Card>

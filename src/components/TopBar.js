@@ -13,16 +13,16 @@ export default function TopBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="#about">About Me</Nav.Link>
               <NavDropdown title="Galery" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/pictures">Pictures</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Videos</NavDropdown.Item>
+                <NavDropdown.Item href="/videos">Videos</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#artikel">Blog</Nav.Link>
               <NavDropdown title="Support" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/faq">FAQ</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.1">Services</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">FAQ</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>

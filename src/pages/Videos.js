@@ -2,13 +2,13 @@ import React from "react";
 import Footer from "../components/Footer";
 import Layout from "../layout";
 
-export default function Pictures() {
+export default function Videos() {
   return (
     <Layout>
       <br />
       <br />
       <div className="bodyGalery bg-abu">
-        <h1 className="judulGalery">My Pictures</h1>
+        <h1 className="judulGalery">My Videos</h1>
         <div className="containerGalery">
           <div className="cardGalery">
             <img
