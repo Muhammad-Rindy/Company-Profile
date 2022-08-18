@@ -8,7 +8,7 @@ export default function Videos() {
       <br />
       <br />
       <div className="bodyGalery bg-abu">
-        <h1 className="judulGalery">My Videos</h1>
+        <h1 className="judulGalery">Videos Collection Since 2022</h1>
         <div className="containerGalery">
           <div className="cardGalery">
             <img
@@ -75,6 +75,7 @@ export default function Videos() {
             </div>
           </div>
         </div>
+        <br />
       </div>
       <Footer />
     </Layout>

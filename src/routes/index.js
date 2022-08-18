@@ -2,6 +2,8 @@ import Contact from "../pages/Contact";
 import Faq from "../pages/Faq";
 import Home from "../pages/Home";
 import Pictures from "../pages/Pictures";
+import Prices from "../pages/Prices";
+import Services from "../pages/Services";
 import Videos from "../pages/Videos";
 
 export const getPublicRoutes = () => [
@@ -39,5 +41,19 @@ export const getPublicRoutes = () => [
     caseSensitive: false,
     isDisabled: false,
     element: <Faq />,
+  },
+  {
+    path: "/services",
+    index: true,
+    caseSensitive: false,
+    isDisabled: false,
+    element: <Services />,
+  },
+  {
+    path: "/prices",
+    index: true,
+    caseSensitive: false,
+    isDisabled: false,
+    element: <Prices />,
   },
 ];

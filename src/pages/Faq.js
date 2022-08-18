@@ -18,7 +18,7 @@ export default function Faq() {
   // Toggle targeted element to show with froEach Loop.
   faqTag.forEach((item) => {
     item.addEventListener("click", (e) => {
-      if (e.target.className === "btn") {
+      if (e.target.className === "btnDua") {
         hideTag();
         e.target.parentElement.classList.toggle("open");
         e.target.innerHTML = "&#8722;";
@@ -44,7 +44,7 @@ export default function Faq() {
                 of type and scrambled it to make a type specimen book.
               </p>
             </div>
-            <span className="btn">&#8722;</span>
+            <span className="btnDua">&#8722;</span>
           </div>
 
           <div className="faq">
@@ -60,7 +60,7 @@ export default function Faq() {
                 of type and scrambled it to make a type specimen book.
               </p>
             </div>
-            <span className="btn">&#43;</span>
+            <span className="btnDua">&#43;</span>
           </div>
 
           <div className="faq">
@@ -75,7 +75,7 @@ export default function Faq() {
                 of type and scrambled it to make a type specimen book.
               </p>
             </div>
-            <span className="btn">&#43;</span>
+            <span className="btnDua">&#43;</span>
           </div>
 
           <div className="faq">
@@ -91,7 +91,7 @@ export default function Faq() {
                 of type and scrambled it to make a type specimen book.
               </p>
             </div>
-            <span className="btn">&#43;</span>
+            <span className="btnDua">&#43;</span>
           </div>
 
           <div className="faq">
@@ -107,7 +107,7 @@ export default function Faq() {
                 of type and scrambled it to make a type specimen book.
               </p>
             </div>
-            <span className="btn">&#43;</span>
+            <span className="btnDua">&#43;</span>
           </div>
         </main>
       </Container>

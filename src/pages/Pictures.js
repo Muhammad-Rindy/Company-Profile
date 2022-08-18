@@ -7,8 +7,8 @@ export default function Pictures() {
     <Layout>
       <br />
       <br />
-      <div className="bodyGalery bg-abu">
-        <h1 className="judulGalery">My Pictures</h1>
+      <div className="bg-abu">
+        <h1 className="judulGalery">Pictures Collection Since 2022</h1>
         <div className="containerGalery">
           <div className="cardGalery">
             <img
@@ -75,6 +75,7 @@ export default function Pictures() {
             </div>
           </div>
         </div>
+        <br />
       </div>
       <Footer />
     </Layout>
