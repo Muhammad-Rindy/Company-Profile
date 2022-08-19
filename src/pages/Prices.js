@@ -8,7 +8,9 @@ export default function Prices() {
       <div className="pricing-plan-containerPrices">
         <section className="pricing-plan">
           <div className="pricing-plan__header">
-            <h1 className="pricing-plan__title">Starter Plan</h1>
+            <h1 className="pricing-plan__title border-bottom border-2 border-dark">
+              Starter Plan
+            </h1>
             <h2 className="pricing-plan__summary">for those getting started</h2>
           </div>
           <div className="pricing-plan__description">
@@ -33,7 +35,9 @@ export default function Prices() {
         <section className="pricing-plan pricing-plan--highlighted">
           <div className="pricing-plan__special-text">Recommended</div>
           <div className="pricing-plan__header">
-            <h1 className="pricing-plan__title">Starter Plan</h1>
+            <h1 className="pricing-plan__title border-bottom border-2 border-dark">
+              Starter Plan
+            </h1>
             <h2 className="pricing-plan__summary">for those getting started</h2>
           </div>
           <div className="pricing-plan__description">
@@ -57,7 +61,9 @@ export default function Prices() {
         </section>
         <section className="pricing-plan">
           <div className="pricing-plan__header">
-            <h1 className="pricing-plan__title">Starter Plan</h1>
+            <h1 className="pricing-plan__title border-bottom border-2 border-dark">
+              Starter Plan
+            </h1>
             <h2 className="pricing-plan__summary">for those getting started</h2>
           </div>
           <div className="pricing-plan__description">

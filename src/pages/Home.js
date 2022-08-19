@@ -16,7 +16,7 @@ export default function Home() {
           <h1 className="fw-bold TextHero">Batam Software Digital</h1>
         </div>
       </div>
-      <Container className="boxAbout bg-abu py-5" id="about">
+      <Container className="boxAbout bg-abu py-4" id="about">
         <h1 className="text-center">About Me</h1>
         <hr />
         <p className="text-center">
@@ -64,47 +64,50 @@ export default function Home() {
         <div className="boxArtikel">
           <img src="assets/images/winner.jpg" className="gambarArtikel" />
 
-          <p className="tulisanArtikel">
+          <div className="tulisanArtikel">
             <h1 className="text-center fw-bold text-uppercase">Title Blog</h1>
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-            earum necessitatibus eaque? Delectus dignissimos quae et ex
-            praesentium nam fugit, asperiores consectetur molestias eius sint,
-            aliquam eveniet mollitia enim velit. Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Excepturi eum quos nam! Eligendi
-            perferendis accusamus tempore laboriosam. Nisi neque rem nobis, nemo
-            dicta, molestiae enim expedita nostrum officiis ab ut!
-          </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+              earum necessitatibus eaque? Delectus dignissimos quae et ex
+              praesentium nam fugit, asperiores consectetur molestias eius sint,
+              aliquam eveniet mollitia enim velit. Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Excepturi eum quos nam! Eligendi
+              perferendis accusamus tempore laboriosam. Nisi neque rem nobis,
+              nemo dicta, molestiae enim expedita nostrum officiis ab ut!
+            </p>
+          </div>
         </div>
         <div className="boxArtikel">
           <img src="assets/images/winner.jpg" className="gambarArtikelDua" />
 
-          <p className="tulisanArtikel">
+          <div className="tulisanArtikel">
             <h1 className="text-center fw-bold text-uppercase">Title Blog</h1>
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-            earum necessitatibus eaque? Delectus dignissimos quae et ex
-            praesentium nam fugit, asperiores consectetur molestias eius sint,
-            aliquam eveniet mollitia enim velit. Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Excepturi eum quos nam! Eligendi
-            perferendis accusamus tempore laboriosam. Nisi neque rem nobis, nemo
-            dicta, molestiae enim expedita nostrum officiis ab ut!
-          </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+              earum necessitatibus eaque? Delectus dignissimos quae et ex
+              praesentium nam fugit, asperiores consectetur molestias eius sint,
+              aliquam eveniet mollitia enim velit. Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Excepturi eum quos nam! Eligendi
+              perferendis accusamus tempore laboriosam. Nisi neque rem nobis,
+              nemo dicta, molestiae enim expedita nostrum officiis ab ut!
+            </p>
+          </div>
         </div>
         <div className="boxArtikel">
           <img src="assets/images/winner.jpg" className="gambarArtikel" />
 
-          <p className="tulisanArtikel">
+          <div className="tulisanArtikel">
             <h1 className="text-center fw-bold text-uppercase">Title Blog</h1>
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
-            earum necessitatibus eaque? Delectus dignissimos quae et ex
-            praesentium nam fugit, asperiores consectetur molestias eius sint,
-            aliquam eveniet mollitia enim velit. Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Excepturi eum quos nam! Eligendi
-            perferendis accusamus tempore laboriosam. Nisi neque rem nobis, nemo
-            dicta, molestiae enim expedita nostrum officiis ab ut!
-          </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+              earum necessitatibus eaque? Delectus dignissimos quae et ex
+              praesentium nam fugit, asperiores consectetur molestias eius sint,
+              aliquam eveniet mollitia enim velit. Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Excepturi eum quos nam! Eligendi
+              perferendis accusamus tempore laboriosam. Nisi neque rem nobis,
+              nemo dicta, molestiae enim expedita nostrum officiis ab ut!
+            </p>
+          </div>
         </div>
       </Container>
       <Footer />

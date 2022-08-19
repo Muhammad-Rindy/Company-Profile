@@ -18,7 +18,7 @@
 /* Tentang kami */
 
 .boxAbout {
-  margin: 20px;
+  margin: 30px;
 }
 
 .gambarAbout {
@@ -43,7 +43,7 @@
 
 /*artikel*/
 .topArtikel {
-  margin: 100px;
+  margin: 45px 100px -5px;
   font-size: 23px;
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -52,7 +52,7 @@
 
 .tulisanArtikel {
   font-size: 17px;
-  padding-top: 75px;
+  padding-top: 100px;
   text-align: justify;
   margin-left: 20px;
   margin-right: 20px;
@@ -173,6 +173,13 @@ body {
 
 /* Contact */
 
+.heroImageContact {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
 .contactDua {
   margin: 0;
   padding: 0;
@@ -181,9 +188,6 @@ body {
 }
 
 .contact {
-  position: relative;
-  min-height: 100vh;
-  padding: 50px 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -324,105 +328,27 @@ body {
 }
 
 .containerGalery {
-  width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .cardGalery {
-  display: flex;
-  position: relative;
-  margin: 20px;
-}
-
-.img-title {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-}
-
-.img-title p {
-  text-align: center;
-  color: black;
-  position: relative;
-  top: 500px;
-}
-
-.textH3Galery {
-  text-align: center;
-  color: black;
-  position: relative;
-  top: 500px;
+  margin: 0 435px 50px;
+  object-fit: contain;
+  width: 50rem;
 }
 
 /* FAQ */
 
-main {
-  max-width: 800px;
-  margin: 5vh auto;
-  padding: 20px;
-}
-
-h1 {
-  font-size: 2.5em;
-  font-weight: 400;
-  margin-bottom: 40px;
-  color: #383838;
-  text-align: center;
-  padding: 20px;
-}
-
-h3 {
-  font-size: 1.1em;
-  font-weight: 400;
-  color: #5e5d5d;
-}
-
-.faq {
-  padding: 20px 30px;
-  border: 2px solid black;
-  border-radius: 15px;
-  color: #979797;
-  position: relative;
-  line-height: 1.5em;
-  margin-top: 15px;
-}
-
-.faq .faq_text {
-  width: 90%;
-}
-
-.btnDua {
-  color: #398ab9;
-  position: absolute;
-  right: 25px;
-  top: 35px;
-  font-weight: 400;
-  font-size: 1.4em;
-  cursor: pointer;
-}
-
-/* Hide p tags */
-.faq.open h3 {
-  color: #398ab9;
-}
-
-.faq p {
-  display: none;
-  font-weight: 300;
-}
-
-.faq.open p {
-  display: block;
-}
-.faq.open .btnDua {
-  color: #398ab9;
+.faq_text {
+  padding: 5px;
 }
 
 .containerFaq {
-  height: 1000px;
+  height: auto;
+  padding: 30px;
 }
 
 /* Prices */
@@ -456,7 +382,7 @@ h3 {
 
 .pricing-plan__title,
 .pricing-plan__summary {
-  margin: 0;
+  margin: 0 0 20px;
   text-align: center;
 }
 

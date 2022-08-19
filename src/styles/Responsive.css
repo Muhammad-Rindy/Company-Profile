@@ -2,7 +2,9 @@
 
 @media all and (max-width: 650px) {
   .responsiveNavbar {
-    width: 647px;
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
   }
 
   /* Home */
@@ -18,17 +20,30 @@
 
   /* About */
 
+  .boxAbout h1 {
+    font-size: 20px;
+    margin: -25px;
+  }
+
   .gambarAbout {
     height: 15vh;
     width: 15vh;
-    padding-bottom: 20px;
+    margin-bottom: -15px;
   }
 
   /* Artikel */
 
+  .boxArtikel {
+    margin-top: -100px;
+  }
+
+  .topArtikel {
+    margin: 40px 30px;
+  }
+
   .tulisanArtikel {
     font-size: 15px;
-    margin: 20px;
+    margin: -30px;
     text-align: justify;
     margin-left: 20px;
     margin-right: 20px;
@@ -36,11 +51,129 @@
   }
 
   .gambarArtikel {
+    height: auto;
     width: 350px;
-    object-fit: contain;
+    object-fit: cover;
+    margin-top: 100px;
   }
   .gambarArtikelDua {
+    height: auto;
     width: 350px;
-    object-fit: contain;
+    object-fit: cover;
+    margin-top: 100px;
+  }
+
+  .tulisanArtikel h1 {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+  /* Footer */
+
+  .footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: black;
+    height: 2px;
+    box-sizing: border-box;
+    width: 122px;
+  }
+
+  .footer p {
+    margin-bottom: -10px;
+    font-size: small;
+  }
+
+  .footer {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+  .footer-col h4 {
+    font-size: medium;
+  }
+
+  .footer-col ul li a {
+    font-size: small;
+  }
+
+  /* Pictures */
+
+  .judulGalery {
+    font-size: x large;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .containerGalery {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cardGalery {
+    width: 400px;
+    margin-left: 118px;
+    margin-top: -10px;
+  }
+
+  /* Prices */
+
+  .pricing-plan {
+    width: 200px;
+  }
+
+  .pricing-plan-containerPrices {
+    height: 880px;
+  }
+
+  /* Faq */
+
+  .containerFaq h1 {
+    font-size: 28px;
+  }
+
+  .containerFaq h5 {
+    font-size: 17px;
+  }
+
+  .containerFaq p {
+    font-size: 15px;
+  }
+
+  /* Our Services */
+
+  .cardServices {
+    width: auto;
+  }
+
+  .boxServices {
+    display: block;
+    width: auto;
+  }
+  .wrapperServices h1 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .wrapperServices p {
+    font-size: medium;
+  }
+
+  /* Contact */
+
+  .contact .content h2 {
+    font-size: 20px;
+  }
+
+  .boxContact .text h3 {
+    font-size: 20px;
+  }
+  .boxContact .contactInfo .box .icon {
+    width: fit-content;
   }
 }

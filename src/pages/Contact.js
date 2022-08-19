@@ -13,13 +13,13 @@ export default function Contact() {
           <img
             src="assets/images/company.jpg"
             alt="gambar"
-            className="heroImage w-100 h-100"
+            className="heroImageContact"
           />
           <div className="position-absolute top-50 start-50 translate-middle">
             <section className="contact">
               <div className="content">
+                <h2 className="display-3 fw-bold">Contact Us</h2>
                 <p>
-                  <h2 className="text-light display-3 fw-bold">Contact Us</h2>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptatem quo recusandaasase, consequuntur inventore eius,
                   molestiae autem, expedita odit porro mollitia eos perspiciatis

@@ -85,7 +85,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <p className="text-center">
+        <p className="text-center border-top py-3 border-dark">
           Privacy Policy • Sitemap • Supports • ©2022 Batam Software Digital
         </p>
       </div>

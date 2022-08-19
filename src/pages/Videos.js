@@ -1,81 +1,69 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Layout from "../layout";
+import Card from "react-bootstrap/Card";
+import { Container } from "react-bootstrap";
 
-export default function Videos() {
+export default function Pictures() {
   return (
     <Layout>
       <br />
-      <br />
-      <div className="bodyGalery bg-abu">
-        <h1 className="judulGalery">Videos Collection Since 2022</h1>
-        <div className="containerGalery">
-          <div className="cardGalery">
-            <img
-              src="assets/images/company.jpg"
-              alt="gambar"
-              className="w-100 h-100"
-            />
-            <div className="img-title">
-              <h3 className="textH3Galery">Martin</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                cumque saepe sed odio quas minima, ullam cupiditate amet harum,
-                expedita nostrum vel repudiandae. Porro, accusantium distinctio?
-                Repudiandae nemo optio cupiditate.
-              </p>
-            </div>
-          </div>
-          <div className="cardGalery">
-            <img
-              src="assets/images/company.jpg"
-              alt="gambar"
-              className="w-100 h-100"
-            />
-            <div className="img-title">
-              <h3 className="textH3Galery">Martin</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                cumque saepe sed odio quas minima, ullam cupiditate amet harum,
-                expedita nostrum vel repudiandae. Porro, accusantium distinctio?
-                Repudiandae nemo optio cupiditate.
-              </p>
-            </div>
-          </div>
-          <div className="cardGalery">
-            <img
-              src="assets/images/company.jpg"
-              alt="gambar"
-              className="w-100 h-100"
-            />
-            <div className="img-title">
-              <h3 className="textH3Galery">Martin</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                cumque saepe sed odio quas minima, ullam cupiditate amet harum,
-                expedita nostrum vel repudiandae. Porro, accusantium distinctio?
-                Repudiandae nemo optio cupiditate.
-              </p>
-            </div>
-          </div>
-          <div className="cardGalery">
-            <img
-              src="assets/images/company.jpg"
-              alt="gambar"
-              className="w-100 h-100"
-            />
-            <div className="img-title">
-              <h3 className="textH3Galery">Martin</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                cumque saepe sed odio quas minima, ullam cupiditate amet harum,
-                expedita nostrum vel repudiandae. Porro, accusantium distinctio?
-                Repudiandae nemo optio cupiditate.
-              </p>
-            </div>
-          </div>
-        </div>
-        <br />
+      <h1 className="judulGalery">Videos Collection Since 2022</h1>
+      <div className="containerGalery">
+        <Card className="cardGalery">
+          <Card.Img variant="top" src="assets/images/winner.jpg" />
+          <Card.Body>
+            <Card.Text className="text-center">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="cardGalery">
+          <Card.Img variant="top" src="assets/images/winner.jpg" />
+          <Card.Body>
+            <Card.Text className="text-center">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="cardGalery">
+          <Card.Img variant="top" src="assets/images/winner.jpg" />
+          <Card.Body>
+            <Card.Text className="text-center">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="cardGalery">
+          <Card.Img variant="top" src="assets/images/winner.jpg" />
+          <Card.Body>
+            <Card.Text className="text-center">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="cardGalery">
+          <Card.Img variant="top" src="assets/images/winner.jpg" />
+          <Card.Body>
+            <Card.Text className="text-center">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="cardGalery">
+          <Card.Img variant="top" src="assets/images/winner.jpg" />
+          <Card.Body>
+            <Card.Text className="text-center">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
       </div>
       <Footer />
     </Layout>
