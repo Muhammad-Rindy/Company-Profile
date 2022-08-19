@@ -1,30 +1,31 @@
 /* Navbar */
 .heroImage {
-  max-height: 1200px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   filter: brightness(50%);
 }
 
 .section {
-  height: 100vh;
-  max-height: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 50px;
-  background-color: aqua;
 }
 
 /* image */
-.winner {
-  object-fit: cover;
+.TextHero {
+  color: whitesmoke;
+  font-size: 50px;
 }
 
 /* Tentang kami */
+
+.boxAbout {
+  margin: 20px;
+}
+
 .gambarAbout {
   object-fit: cover;
-  height: 200px;
-  width: 200px;
+  height: 210px;
+  width: 210px;
+  padding-bottom: 30px;
 }
 
 .About {
@@ -51,7 +52,7 @@
 
 .tulisanArtikel {
   font-size: 17px;
-  margin: 20px;
+  padding-top: 75px;
   text-align: justify;
   margin-left: 20px;
   margin-right: 20px;
@@ -60,25 +61,21 @@
 
 .gambarArtikel {
   float: left;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 0 20px 0;
   height: 500px;
-  width: 800px;
-  object-fit: cover;
+  width: 700px;
+  object-fit: contain;
 }
 .gambarArtikelDua {
   float: right;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 0 20px 0;
   height: 500px;
-  width: 800px;
-  object-fit: cover;
+  width: 700px;
+  object-fit: contain;
 }
 
 .boxArtikel {
-  height: 600px;
+  height: 500px;
 }
 
 /* Footer */

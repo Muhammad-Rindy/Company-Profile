@@ -85,7 +85,6 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <hr />
         <p className="text-center">
           Privacy Policy • Sitemap • Supports • ©2022 Batam Software Digital
         </p>

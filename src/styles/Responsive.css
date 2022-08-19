@@ -1,5 +1,46 @@
-@media (max-width: 1399.98px) {
-  .ukuranHp {
-    width: 650px;
+/* Mobile Responsive */
+
+@media all and (max-width: 650px) {
+  .responsiveNavbar {
+    width: 647px;
+  }
+
+  /* Home */
+
+  .heroImage {
+    height: 100%;
+    width: 100%;
+  }
+
+  .TextHero {
+    font-size: 25px;
+  }
+
+  /* About */
+
+  .gambarAbout {
+    height: 15vh;
+    width: 15vh;
+    padding-bottom: 20px;
+  }
+
+  /* Artikel */
+
+  .tulisanArtikel {
+    font-size: 15px;
+    margin: 20px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .gambarArtikel {
+    width: 350px;
+    object-fit: contain;
+  }
+  .gambarArtikelDua {
+    width: 350px;
+    object-fit: contain;
   }
 }
