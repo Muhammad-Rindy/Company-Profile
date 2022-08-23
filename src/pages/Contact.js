@@ -8,6 +8,8 @@ import Footer from "../components/Footer";
 export default function Contact() {
   return (
     <Layout>
+    <br/>
+    <br/>
       <div className="contactDua">
         <div className="position-relative vh-100">
           <img

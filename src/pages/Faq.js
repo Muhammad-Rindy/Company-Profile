@@ -11,9 +11,7 @@ export default function Faq() {
       <Container className="containerFaq bg-abu">
         <div>
           <br />
-          <h1 className="text-center m-5">
-            Frequently Asked Questions? <FcSearch />
-          </h1>
+            <div className="judulFaq text-center">Frequently Asked Questions? <FcSearch /></div>
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
               <Accordion.Header>

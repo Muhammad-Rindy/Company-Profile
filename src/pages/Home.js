@@ -2,13 +2,14 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Layout from "../layout";
 import Footer from "../components/Footer";
+import heroPict from "../assets/images/company.jpg"
 
 export default function Home() {
   return (
     <Layout>
       <div className="position-relative vh-100" id="home">
         <img
-          src="assets/images/company.jpg"
+          src={heroPict}
           alt="gambar"
           className="heroImage"
         />
@@ -16,8 +17,9 @@ export default function Home() {
           <h1 className="fw-bold TextHero">Batam Software Digital</h1>
         </div>
       </div>
-      <Container className="boxAbout bg-abu py-4" id="about">
+      <Container className="boxAbout bg-abu py-5" id="about">
         <h1 className="text-center">About Me</h1>
+        <br/>
         <hr />
         <p className="text-center">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
@@ -41,16 +43,16 @@ export default function Home() {
         <br />
         <br />
         <span className="About">
-          <img src="assets/images/winner.jpg" className="gambarAbout" />
+          <img src="assets/images/winner.jpg" className="gambarAbout" alt=""  />
         </span>
         <span className="About">
-          <img src="assets/images/winner.jpg" className="gambarAbout" />
+          <img src="assets/images/winner.jpg" className="gambarAbout" alt="" />
         </span>
         <span className="About">
-          <img src="assets/images/winner.jpg" className="gambarAbout" />
+          <img src="assets/images/winner.jpg" className="gambarAbout" alt="" />
         </span>
         <span className="About">
-          <img src="assets/images/winner.jpg" className="gambarAbout" />
+          <img src="assets/images/winner.jpg" className="gambarAbout" alt="" />
         </span>
       </Container>
 
@@ -62,7 +64,7 @@ export default function Home() {
       </h4>
       <Container>
         <div className="boxArtikel">
-          <img src="assets/images/winner.jpg" className="gambarArtikel" />
+          <img src="assets/images/winner.jpg" className="gambarArtikel" alt="" />
 
           <div className="tulisanArtikel">
             <h1 className="text-center fw-bold text-uppercase">Title Blog</h1>
@@ -78,7 +80,7 @@ export default function Home() {
           </div>
         </div>
         <div className="boxArtikel">
-          <img src="assets/images/winner.jpg" className="gambarArtikelDua" />
+          <img src="assets/images/winner.jpg" className="gambarArtikelDua" alt=""/>
 
           <div className="tulisanArtikel">
             <h1 className="text-center fw-bold text-uppercase">Title Blog</h1>
@@ -94,7 +96,7 @@ export default function Home() {
           </div>
         </div>
         <div className="boxArtikel">
-          <img src="assets/images/winner.jpg" className="gambarArtikel" />
+          <img src="assets/images/winner.jpg" className="gambarArtikel" alt=""/>
 
           <div className="tulisanArtikel">
             <h1 className="text-center fw-bold text-uppercase">Title Blog</h1>

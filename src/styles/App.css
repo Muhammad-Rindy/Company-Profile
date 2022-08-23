@@ -38,7 +38,7 @@
 }
 
 .galeriImage {
-  margin: 70px 50px;
+  margin: 70px 20px;
 }
 
 /*artikel*/
@@ -335,7 +335,7 @@ body {
 }
 
 .cardGalery {
-  margin: 0 435px 50px;
+  margin: 0 270px 50px;
   object-fit: contain;
   width: 50rem;
 }
@@ -344,6 +344,12 @@ body {
 
 .faq_text {
   padding: 5px;
+}
+
+.judulFaq {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 25px;
 }
 
 .containerFaq {

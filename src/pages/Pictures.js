@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "../components/Footer";
 import Layout from "../layout";
 import Card from "react-bootstrap/Card";
-import { Container } from "react-bootstrap";
 
 export default function Pictures() {
   return (

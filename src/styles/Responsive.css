@@ -1,6 +1,6 @@
 /* Mobile Responsive */
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 900px) {
   .responsiveNavbar {
     width: 100%;
     border-bottom-left-radius: 25px;
@@ -15,75 +15,75 @@
   }
 
   .TextHero {
-    font-size: 25px;
+    font-size: 17px;
   }
 
   /* About */
 
   .boxAbout h1 {
-    font-size: 20px;
-    margin: -25px;
+    font-size: 18px;
+    margin: -25px 0 -25px;
+  }
+
+  .boxAbout p {
+    font-size: 15px;
   }
 
   .gambarAbout {
     height: 15vh;
     width: 15vh;
-    margin-bottom: -15px;
+    margin-left: -25px;
+  }
+
+  .boxAbout {
+    width: 100%;
   }
 
   /* Artikel */
 
-  .boxArtikel {
-    margin-top: -100px;
-  }
-
   .topArtikel {
-    margin: 40px 30px;
-  }
-
-  .tulisanArtikel {
     font-size: 15px;
-    margin: -30px;
+    margin: 30px 0 -60px;
+  }
+  
+  .tulisanArtikel h1 {
+    font-size: 11px;
+    margin-top: 5px;
+  }
+    
+  .tulisanArtikel {
+    font-size: 10px;
     text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
     margin-bottom: 20px;
   }
 
   .gambarArtikel {
     height: auto;
-    width: 350px;
-    object-fit: cover;
-    margin-top: 100px;
-  }
-  .gambarArtikelDua {
-    height: auto;
-    width: 350px;
+    width: 250px;
     object-fit: cover;
     margin-top: 100px;
   }
 
-  .tulisanArtikel h1 {
-    font-size: 15px;
-    margin-top: 5px;
+  .gambarArtikelDua {
+    height: auto;
+    width: 250px;
+    object-fit: cover;
+    margin-top: 100px;
+  }
+
+  .boxArtikel {
+    height: 300px;
   }
 
   /* Footer */
 
   .footer-col h4::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: black;
-    height: 2px;
-    box-sizing: border-box;
-    width: 122px;
+    display: none;
   }
 
   .footer p {
     margin-bottom: -10px;
-    font-size: small;
+    font-size: 10px;
   }
 
   .footer {
@@ -92,17 +92,17 @@
   }
 
   .footer-col h4 {
-    font-size: medium;
+    font-size: 12px;
   }
 
   .footer-col ul li a {
-    font-size: small;
+    font-size: 10px;
   }
 
   /* Pictures */
 
   .judulGalery {
-    font-size: x large;
+    font-size: 25px;
     text-align: center;
     padding-top: 50px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -116,10 +116,16 @@
   }
 
   .cardGalery {
-    width: 400px;
-    margin-left: 118px;
-    margin-top: -10px;
+    width: 250px;
+    margin: 20px 0 0 73px;
   }
+
+  /* Faq */
+   .judulFaq {
+    font-size: 17px;
+    margin: 25px;
+   }
+
 
   /* Prices */
 
@@ -129,6 +135,53 @@
 
   .pricing-plan-containerPrices {
     height: 880px;
+  }
+
+  .pricing-plan__title {
+    font-size: medium;
+  }
+
+  .pricing-plan__header {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  .pricing-plan__title,
+  .pricing-plan__summary {
+  text-align: center;
+}
+
+ .pricing-plan__summary {
+  font-size: small;
+ }
+
+ .pricing-plan__list {
+  font-size: 15px;
+  margin-left: -12px;
+}
+
+.pricing-plan__cost {
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  font-weight: 500;
+}
+
+.pricing-plan__text {
+  font-size: 0.7em;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.pricing-plan__button {
+  font-size: 8px;
+  padding: 5px 5px;
+  margin-left: -5px;
+}
+
+  .pricing-plan__special-text {
+    font-size: 10px;
   }
 
   /* Faq */
@@ -168,12 +221,48 @@
 
   .contact .content h2 {
     font-size: 20px;
+    margin-top: 400px;
+  }
+
+  .contact .content p {
+    display: none;
   }
 
   .boxContact .text h3 {
-    font-size: 20px;
+    font-size: small;
   }
+  .boxContact .text p {
+    font-size: small;
+  }
+
+  .icon {
+    font-size: small;
+  }
+
   .boxContact .contactInfo .box .icon {
     width: fit-content;
   }
+
+  .boxContact {
+    display: block;
+  }
+
+  .box {
+    display: none;
+  }
+  .boxContact .contactInfo .box {
+    padding: 0;
+    display: none;
+  }
+
+  .boxContact .contactInfo .box .icon {
+    font-size: medium;
+    height: 25px;
+    width: 25px;
+    display: none;
+    }
+
+    .contactForm {
+      margin-bottom: 400px;
+    }
 }

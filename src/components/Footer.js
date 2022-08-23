@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable no-script-url */
 import React from "react";
 import {
   FaInstagram,
@@ -15,13 +17,13 @@ export default function Footer() {
             <h4 className="text-center">About Us</h4>
             <ul>
               <li>
-                <a href="#">Story</a>
+                <a href="javSascript:void(0)">Story</a>
               </li>
               <li>
-                <a href="#">Clients</a>
+                <a href="javascript:void(0)">Clients</a>
               </li>
               <li>
-                <a href="#">Testimonials</a>
+                <a href="javascript:void(0)">Testimonials</a>
               </li>
             </ul>
           </div>
@@ -29,16 +31,16 @@ export default function Footer() {
             <h4 className="text-center">Services</h4>
             <ul>
               <li>
-                <a href="#">Marketing</a>
+                <a href="javascript:void(0)">Marketing</a>
               </li>
               <li>
-                <a href="#">Consulting</a>
+                <a href="javascript:void(0)">Consulting</a>
               </li>
               <li>
-                <a href="#">Development</a>
+                <a href="javascript:void(0)">Development</a>
               </li>
               <li>
-                <a href="#">Design</a>
+                <a href="javascript:void(0)">Design</a>
               </li>
             </ul>
           </div>
@@ -46,16 +48,13 @@ export default function Footer() {
             <h4 className="text-center">Contact Us</h4>
             <ul>
               <li>
-                <a href="#">BtmS</a>
+                <a href="javascript:void(0)">BtmS</a>
               </li>
               <li>
-                <a href="#">BtmS</a>
+                <a href="javascript:void(0)">BtmS</a>
               </li>
               <li>
-                <a href="#">BtmS</a>
-              </li>
-              <li>
-                <a href="#"></a>
+                <a href="javascript:void(0)">BtmS</a>
               </li>
             </ul>
           </div>
@@ -63,22 +62,22 @@ export default function Footer() {
             <h4 className="text-center">Social</h4>
             <ul>
               <li>
-                <a href="#">
+                <a href="javascript:void(0)">
                   <FaInstagram /> Instagram
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="javascript:void(0)">
                   <FaFacebookSquare /> Facebook
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="javascript:void(0)">
                   <FaTwitter /> Twitter
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="javascript:void(0)">
                   <FaLinkedinIn /> Linked in
                 </a>
               </li>

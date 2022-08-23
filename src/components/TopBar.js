@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import companyData from "../assets/data/company-data.json"
 
 export default function TopBar() {
   return (
@@ -17,7 +18,7 @@ export default function TopBar() {
         className="responsiveNavbar"
       >
         <Container>
-          <Navbar.Brand>Batam Software Digital</Navbar.Brand>
+          <Navbar.Brand>{companyData.companyName}</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
